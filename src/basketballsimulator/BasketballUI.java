@@ -51,9 +51,11 @@ public class BasketballUI extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Basketball");
         setAutoRequestFocus(false);
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setResizable(false);
+        setSize(new java.awt.Dimension(266, 320));
 
         WelcomeLabel.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
         WelcomeLabel.setText("Welcome!");
